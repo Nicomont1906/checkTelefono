@@ -6,18 +6,24 @@ Ricevuto come parametro un vettore di string, ritornare al chiamante la prima st
 - oppure con un 3 (esattamente lungo 10)
 
 Se il numero non viene trovato, ritornare stringa vuota ""
+```
+using System;
+using System.Collections.Generic;
 
-Ad esempio.
-Se arriva "05417373", "3367726712",  "778823"
-Tornare "3367726712"
+public class Telefono
+{
+    public static string Check(string[] numeri)
+    {
+        foreach (string numero in numeri)
+        {
+            string num = "";
 
-Se arriva "33677267", "33677232",  "778823"
-Tornare ""
+            foreach (char c in numero)
+            {
+                if (char.IsDigit(c) || (num.Length == 0 && c == '+'))
+                {
+                    num += c;
+                }
+            }
+```
 
-Se arriva "", "05417723",  "+391231231234"
-Tornare "+391231231234"
-
-Se arriva "3", "05417723",  "00391231231230"
-Tornare ""
-
-etc
