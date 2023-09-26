@@ -45,11 +45,11 @@ e per ciascun carattere, viene verificato se è un carattere numerico (0-9) o se
 ```
 ***Qui viene verificato se la stringa "num" rappresenta un numero di telefono italiano valido. La validità viene verificata in base alla lunghezza della stringa e al suo prefisso. Se la stringa soddisfa una delle tre condizioni,viene restituita come un numero di telefono valido; altrimenti, viene restituita una stringa vuota. Le tre condizioni sono le seguenti:***
 
->Inizia con "+39" e ha una lunghezza di 13 o 14 caratteri.
+* Inizia con "+39" e ha una lunghezza di 13 o 14 caratteri.
 
 * Inizia con "0039" e ha una lunghezza di 14 o 15 caratteri.
 
->Inizia con "3" e ha una lunghezza di 10 o 11 caratteri.
+* Inizia con "3" e ha una lunghezza di 10 o 11 caratteri.
 
 ***In caso contrario, il metodo restituirà una stringa vuota.***
 
