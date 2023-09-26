@@ -47,7 +47,7 @@ e per ciascun carattere, viene verificato se è un carattere numerico (0-9) o se
 
 >Inizia con "+39" e ha una lunghezza di 13 o 14 caratteri.
 
->Inizia con "0039" e ha una lunghezza di 14 o 15 caratteri.
+* Inizia con "0039" e ha una lunghezza di 14 o 15 caratteri.
 
 >Inizia con "3" e ha una lunghezza di 10 o 11 caratteri.
 
