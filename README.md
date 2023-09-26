@@ -26,9 +26,9 @@ public class Telefono
                 }
             }
 ```
-~~
-Questo codice rappresenta una classe chiamata "Telefono" contente un metodo chiamato "Check" che prende in input un array di stringhe chiamto numeri. Nel metodo "Check" viene utilizzato un ciclo "foreach" che attraversa ciascuna stringa presente nell'array "numeri". All'interno del ciclo viene inizializzata una stringa vuota chiamata "num" che viene utilizzata per costruire un numero di telefono. Viene eseguito un altro ciclo "foreach" che attraversa ciascun carattere nella stringa "numero" 
-e per ciascun carattere, viene verificato se è un carattere numerico (0-9) o se è il primo carattere della stringa ed è un segno "+". Se il carattere soddisfa una delle condizioni,viene aggiunto alla stringa "num".~~
+
+> Questo codice rappresenta una classe chiamata "Telefono" contente un metodo chiamato "Check" che prende in input un array di stringhe chiamto numeri. Nel metodo "Check" viene utilizzato un ciclo "foreach" che attraversa ciascuna stringa presente nell'array "numeri". All'interno del ciclo viene inizializzata una stringa vuota chiamata "num" che viene utilizzata per costruire un numero di telefono. Viene eseguito un altro ciclo "foreach" che attraversa ciascun carattere nella stringa "numero" 
+e per ciascun carattere, viene verificato se è un carattere numerico (0-9) o se è il primo carattere della stringa ed è un segno "+". Se il carattere soddisfa una delle condizioni,viene aggiunto alla stringa "num".
 
 ```
   if ((num.StartsWith("+39") && (num.Length == 13 || num.Length == 14)) ||
